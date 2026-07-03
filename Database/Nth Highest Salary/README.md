@@ -1,13 +1,12 @@
 # 177. Nth Highest Salary
 
 [![LeetCode Link](https://img.shields.io/badge/LeetCode-Problem_Link-FFA116?style=flat-square&logo=leetcode)](https://leetcode.com/problems/nth-highest-salary/)
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-eab308?style=flat-square)
+![Difficulty](https://img.shields.io/badge/Difficulty-Easy-22c55e?style=flat-square)
 
 ## Problem Statement
 
-<p>Table: <code>Employee</code></p>
+Table: Employee
 
-<pre>
 +-------------+------+
 | Column Name | Type |
 +-------------+------+
@@ -16,19 +15,18 @@
 +-------------+------+
 id is the primary key (column with unique values) for this table.
 Each row of this table contains information about the salary of an employee.
-</pre>
 
-<p>&nbsp;</p>
 
-<p>Write a solution to find the <code>n<sup>th</sup></code> highest <strong>distinct</strong> salary from the <code>Employee</code> table. If there are less than <code>n</code> distinct salaries, return&nbsp;<code>null</code>.</p>
+ 
 
-<p>The result format is in the following example.</p>
+Write a solution to find the nth highest distinct salary from the Employee table. If there are less than n distinct salaries, return null.
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+The result format is in the following example.
 
-<pre>
-<strong>Input:</strong> 
+ 
+Example 1:
+
+Input: 
 Employee table:
 +----+--------+
 | id | salary |
@@ -38,18 +36,17 @@ Employee table:
 | 3  | 300    |
 +----+--------+
 n = 2
-<strong>Output:</strong> 
+Output: 
 +------------------------+
 | getNthHighestSalary(2) |
 +------------------------+
 | 200                    |
 +------------------------+
-</pre>
 
-<p><strong class="example">Example 2:</strong></p>
 
-<pre>
-<strong>Input:</strong> 
+Example 2:
+
+Input: 
 Employee table:
 +----+--------+
 | id | salary |
@@ -57,14 +54,48 @@ Employee table:
 | 1  | 100    |
 +----+--------+
 n = 2
-<strong>Output:</strong> 
+Output: 
 +------------------------+
 | getNthHighestSalary(2) |
 +------------------------+
 | null                   |
 +------------------------+
-</pre>
 
+## Examples
+
+```
+Input: 
+Employee table:
++----+--------+
+| id | salary |
++----+--------+
+| 1  | 100    |
+| 2  | 200    |
+| 3  | 300    |
++----+--------+
+n = 2
+Output: 
++------------------------+
+| getNthHighestSalary(2) |
++------------------------+
+| 200                    |
++------------------------+
+
+Input: 
+Employee table:
++----+--------+
+| id | salary |
++----+--------+
+| 1  | 100    |
++----+--------+
+n = 2
+Output: 
++------------------------+
+| getNthHighestSalary(2) |
++------------------------+
+| null                   |
++------------------------+
+```
 
 ---
 *Synced automatically with [AlgoVault](https://github.com/mr-sanjai-offl/AlgoVault)*

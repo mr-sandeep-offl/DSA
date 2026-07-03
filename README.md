@@ -19,7 +19,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | # | Problem | Difficulty |
 |---|---------|------------|
 | 176 | [Second Highest Salary](./Database/Second%20Highest%20Salary/) | Medium |
-| 177 | [Nth Highest Salary](./Database/Nth%20Highest%20Salary/) | Medium |
+| 177 | [Nth Highest Salary](./Database/Nth%20Highest%20Salary/) | Easy |
 | 1141 | [User Activity for the Past 30 Days I](./Database/User%20Activity%20for%20the%20Past%2030%20Days%20I/) | Easy |
 
 </details>
