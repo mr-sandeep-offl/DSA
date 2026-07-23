@@ -20,6 +20,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 |---|---------|------------|
 | 1 | [Two Sum](./Array/Two%20Sum/) | Easy |
 | 15 | [3Sum](./Array/3Sum/) | Easy |
+| 49 | [Group Anagrams](./Array/Group%20Anagrams/) | Medium |
 
 </details>
 
