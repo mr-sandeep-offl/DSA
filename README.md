@@ -46,6 +46,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | # | Problem | Difficulty |
 |---|---------|------------|
 | 141 | [Linked List Cycle](./Hash%20Table/Linked%20List%20Cycle/) | Easy |
+| 242 | [Valid Anagram](./Hash%20Table/Valid%20Anagram/) | Easy |
 
 </details>
 
